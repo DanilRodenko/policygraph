@@ -1,0 +1,141 @@
+{
+  "policy_id": "motor",
+  "name": "SafeHarbour Private Motor Insurance",
+  "insurer": "SafeHarbour Insurance DAC (fictional)",
+  "disclaimer": "FICTIONAL POLICY created for the PolicyGraph demo project. Not a real insurance product.",
+  "clauses": [
+    {
+      "clause_id": "1.1",
+      "section": "Definitions",
+      "title": "Insured vehicle",
+      "text": "\"Insured vehicle\" means the private car shown on your schedule by its registration number.",
+      "see_also": []
+    },
+    {
+      "clause_id": "1.2",
+      "section": "Definitions",
+      "title": "Named driver",
+      "text": "\"Named driver\" means any person listed by name as a driver on your schedule.",
+      "see_also": ["3.1"]
+    },
+    {
+      "clause_id": "1.3",
+      "section": "Definitions",
+      "title": "Social, domestic and pleasure purposes",
+      "text": "\"Social, domestic and pleasure purposes\" means personal use such as shopping, visiting friends, holidays and leisure trips. It does not include any use in connection with a business or for payment.",
+      "see_also": ["4.1"]
+    },
+    {
+      "clause_id": "1.4",
+      "section": "Definitions",
+      "title": "Commuting",
+      "text": "\"Commuting\" means travelling between your home and your single permanent place of work.",
+      "see_also": ["4.1"]
+    },
+    {
+      "clause_id": "1.5",
+      "section": "Definitions",
+      "title": "Business use",
+      "text": "\"Business use\" means use of the insured vehicle in connection with any trade, profession or paid work, including delivering goods, food or parcels and visiting clients.",
+      "see_also": ["4.2", "5.2"]
+    },
+    {
+      "clause_id": "2.1",
+      "section": "Cover",
+      "title": "Third-party liability",
+      "text": "We will cover your legal liability for death or injury to other people and for damage to their property caused by an accident involving the insured vehicle.",
+      "see_also": ["5.1", "5.2"]
+    },
+    {
+      "clause_id": "2.2",
+      "section": "Cover",
+      "title": "Fire and theft",
+      "text": "We will cover loss of or damage to the insured vehicle caused by fire, theft or attempted theft.",
+      "see_also": ["5.5"]
+    },
+    {
+      "clause_id": "2.3",
+      "section": "Cover",
+      "title": "Accidental damage",
+      "text": "We will cover accidental damage to the insured vehicle, including damage caused in a collision, subject to the limitations in Sections 3 and 4 and the exclusions in Section 5.",
+      "see_also": ["3.1", "4.1", "5.1", "5.2"]
+    },
+    {
+      "clause_id": "2.4",
+      "section": "Cover",
+      "title": "Windscreen",
+      "text": "We will cover the repair or replacement of broken windscreen and window glass. A windscreen claim does not affect your no-claims discount.",
+      "see_also": []
+    },
+    {
+      "clause_id": "3.1",
+      "section": "Who May Drive",
+      "title": "Permitted drivers",
+      "text": "Cover applies only while the insured vehicle is driven by you or a named driver who holds a valid licence for the vehicle.",
+      "see_also": ["1.2", "5.1"]
+    },
+    {
+      "clause_id": "4.1",
+      "section": "Limitations as to Use",
+      "title": "Permitted use",
+      "text": "The insured vehicle may be used only for social, domestic and pleasure purposes and for commuting.",
+      "see_also": ["1.3", "1.4", "4.2", "5.2"]
+    },
+    {
+      "clause_id": "4.2",
+      "section": "Limitations as to Use",
+      "title": "Business use",
+      "text": "Business use is covered only if Business Use is shown on your schedule.",
+      "see_also": ["1.5", "5.2"]
+    },
+    {
+      "clause_id": "5.1",
+      "section": "Exclusions",
+      "title": "Unauthorised driver",
+      "text": "We will not provide any cover while the insured vehicle is driven by a person who is not permitted to drive under clause 3.1. Where the law requires us to pay a third-party claim, we will pay it and recover the full amount from you.",
+      "see_also": ["3.1", "1.2"]
+    },
+    {
+      "clause_id": "5.2",
+      "section": "Exclusions",
+      "title": "Use for hire or reward",
+      "text": "We will not provide any cover while the insured vehicle is used for hire or reward or for business use not shown on your schedule, including food delivery, parcel delivery or carrying passengers for payment. Where the law requires us to pay a third-party claim, we will pay it and recover the full amount from you.",
+      "see_also": ["1.5", "4.1", "4.2"]
+    },
+    {
+      "clause_id": "5.3",
+      "section": "Exclusions",
+      "title": "Alcohol and drugs",
+      "text": "We will not cover loss or damage to the insured vehicle while it is driven by a person over the legal alcohol limit or under the influence of drugs.",
+      "see_also": []
+    },
+    {
+      "clause_id": "5.4",
+      "section": "Exclusions",
+      "title": "Racing and track days",
+      "text": "We will not provide any cover while the insured vehicle is used for racing, speed testing or on a race track.",
+      "see_also": []
+    },
+    {
+      "clause_id": "5.5",
+      "section": "Exclusions",
+      "title": "Mechanical failure",
+      "text": "We will not cover mechanical, electrical or electronic breakdown, or wear and tear.",
+      "see_also": []
+    },
+    {
+      "clause_id": "6.1",
+      "section": "Claims",
+      "title": "Reporting an accident",
+      "text": "You must report any accident to us within 7 days and must not admit liability or agree to pay anyone without our written consent.",
+      "see_also": []
+    },
+    {
+      "clause_id": "6.2",
+      "section": "Claims",
+      "title": "Excess",
+      "text": "The standard excess for accidental damage claims is €300. An additional excess of €500 applies if the driver at the time of the accident was under 25 years of age.",
+      "see_also": ["2.3"]
+    }
+  ]
+}

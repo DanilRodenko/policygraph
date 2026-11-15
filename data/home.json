@@ -1,0 +1,148 @@
+{
+  "policy_id": "home",
+  "name": "SafeHarbour Home Insurance",
+  "insurer": "SafeHarbour Insurance DAC (fictional)",
+  "disclaimer": "FICTIONAL POLICY created for the PolicyGraph demo project. Not a real insurance product.",
+  "clauses": [
+    {
+      "clause_id": "1.1",
+      "section": "Definitions",
+      "title": "Home",
+      "text": "\"Home\" means the private dwelling at the address shown on your schedule, including its garage and outbuildings, used solely as a private residence.",
+      "see_also": []
+    },
+    {
+      "clause_id": "1.2",
+      "section": "Definitions",
+      "title": "Sudden and accidental",
+      "text": "\"Sudden and accidental\" means an unexpected event that happens at a single identifiable moment. It does not include damage that develops gradually over a period of time.",
+      "see_also": ["4.1"]
+    },
+    {
+      "clause_id": "1.3",
+      "section": "Definitions",
+      "title": "Unoccupied",
+      "text": "\"Unoccupied\" means your home has not been lived in overnight by you or a member of your family for more than 30 consecutive days.",
+      "see_also": ["4.3"]
+    },
+    {
+      "clause_id": "1.4",
+      "section": "Definitions",
+      "title": "Forcible and violent entry",
+      "text": "\"Forcible and violent entry\" means entry to your home that leaves visible physical damage to doors, windows, locks or the structure of the building.",
+      "see_also": ["3.2", "4.4"]
+    },
+    {
+      "clause_id": "2.1",
+      "section": "Buildings Cover",
+      "title": "Fire, lightning and explosion",
+      "text": "We will cover loss of or damage to the buildings of your home caused by fire, lightning or explosion, subject to the exclusions in Section 4.",
+      "see_also": ["4.5"]
+    },
+    {
+      "clause_id": "2.2",
+      "section": "Buildings Cover",
+      "title": "Escape of water",
+      "text": "We will cover damage to your home caused by water escaping suddenly and accidentally from any fixed water or heating installation, including burst pipes, tanks and radiators, subject to the exclusions in Section 4.",
+      "see_also": ["1.2", "4.1", "4.3", "6.3"]
+    },
+    {
+      "clause_id": "2.3",
+      "section": "Buildings Cover",
+      "title": "Storm and flood",
+      "text": "We will cover damage to your home caused by storm or flood, except damage to gates, fences and hedges.",
+      "see_also": ["4.2"]
+    },
+    {
+      "clause_id": "3.1",
+      "section": "Contents Cover",
+      "title": "Contents",
+      "text": "We will cover loss of or damage to your household goods and personal possessions while inside your home, caused by any of the events listed in Section 2.",
+      "see_also": ["2.1", "2.2", "2.3"]
+    },
+    {
+      "clause_id": "3.2",
+      "section": "Contents Cover",
+      "title": "Theft",
+      "text": "We will cover theft of your contents from inside your home, provided the theft involved forcible and violent entry to your home.",
+      "see_also": ["1.4", "4.4", "6.1"]
+    },
+    {
+      "clause_id": "4.1",
+      "section": "Exclusions",
+      "title": "Gradual damage and wear and tear",
+      "text": "We do not cover damage caused by wear and tear, gradual deterioration, corrosion, rot, damp, condensation, or water seeping or leaking slowly over a period of time, including slow leaks from pipes, showers, sinks or appliances.",
+      "see_also": ["1.2", "2.2"]
+    },
+    {
+      "clause_id": "4.2",
+      "section": "Exclusions",
+      "title": "Gates, fences and hedges",
+      "text": "We do not cover damage to gates, fences or hedges caused by storm or flood.",
+      "see_also": ["2.3"]
+    },
+    {
+      "clause_id": "4.3",
+      "section": "Exclusions",
+      "title": "Unoccupied home",
+      "text": "If your home is unoccupied, we do not cover escape of water, theft or malicious damage occurring after the 30th consecutive day of unoccupancy.",
+      "see_also": ["1.3", "2.2", "3.2", "5.3"]
+    },
+    {
+      "clause_id": "4.4",
+      "section": "Exclusions",
+      "title": "Theft without forced entry",
+      "text": "We do not cover theft where there is no evidence of forcible and violent entry, including theft using a key, or theft by any person lawfully in your home such as tenants, lodgers or guests.",
+      "see_also": ["1.4", "3.2"]
+    },
+    {
+      "clause_id": "4.5",
+      "section": "Exclusions",
+      "title": "Deliberate damage",
+      "text": "We do not cover any loss or damage caused deliberately by you or a member of your family.",
+      "see_also": []
+    },
+    {
+      "clause_id": "5.1",
+      "section": "Conditions",
+      "title": "Reasonable care",
+      "text": "You must take all reasonable steps to prevent loss or damage and keep your home in a good state of repair.",
+      "see_also": ["4.1"]
+    },
+    {
+      "clause_id": "5.2",
+      "section": "Conditions",
+      "title": "Locks",
+      "text": "When your home is left empty, all external doors and windows must be closed and locked.",
+      "see_also": ["3.2"]
+    },
+    {
+      "clause_id": "5.3",
+      "section": "Conditions",
+      "title": "Changes you must tell us about",
+      "text": "You must tell us if your home will be unoccupied for more than 30 consecutive days, or if any part of it is used for business purposes.",
+      "see_also": ["1.3", "4.3"]
+    },
+    {
+      "clause_id": "6.1",
+      "section": "Claims",
+      "title": "Reporting theft",
+      "text": "You must report any theft or malicious damage to An Garda Síochána within 24 hours of discovering it and obtain a crime reference number.",
+      "see_also": ["3.2"]
+    },
+    {
+      "clause_id": "6.2",
+      "section": "Claims",
+      "title": "Notifying us",
+      "text": "You must notify us of any claim within 30 days of the incident.",
+      "see_also": []
+    },
+    {
+      "clause_id": "6.3",
+      "section": "Claims",
+      "title": "Excess",
+      "text": "The standard excess is €250 per claim. The excess for escape of water claims is €500.",
+      "see_also": ["2.2"]
+    }
+  ]
+}
